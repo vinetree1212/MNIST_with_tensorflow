@@ -57,3 +57,17 @@ Python 3.7.0
 위를 보면 python 이 3.7이고 pip install을 위해 직접 tensorflow 주소를 입력했다. 이건 검색해야하는 듯하다.
 https://www.tensorflow.org/install/pip
 위의 주소에 가면 각 python버전에 따른 tensorflow pip 있다.
+
+
+# 노트 4
+(11/26)
+
+tensorflow설치했을떄 python에서 import tensorflow as tf 하면 오류나온다
+
+https://github.com/tensorflow/tensorflow/issues/7552
+
+tensorflow버전이 너무 낮거나 하드웨어가 없는ㄴ데 gpu설치한 경우다
+https://www.tensorflow.org/install/pip
+위의 주소에서 알맞은 tensor설치하고 conda install python=3.6이용하면 된다.
+
+
