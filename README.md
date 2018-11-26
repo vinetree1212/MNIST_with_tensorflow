@@ -55,3 +55,5 @@ Python 3.7.0
 //////////////////////////////////////////////////////////////
 
 위를 보면 python 이 3.7이고 pip install을 위해 직접 tensorflow 주소를 입력했다. 이건 검색해야하는 듯하다.
+https://www.tensorflow.org/install/pip
+위의 주소에 가면 각 python버전에 따른 tensorflow pip 있다.
