@@ -26,3 +26,8 @@
  New 단축키에 python3과 tensorflow가 함꼐 잇는걸 확인할 수 있다.
  
  (tensorflow) 가상환경을 만들었기 떄문이다.
+
+#노트2
+(11/26)
+
+hukim1112 참고
