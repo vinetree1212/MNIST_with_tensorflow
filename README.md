@@ -70,4 +70,7 @@ tensorflow버전이 너무 낮거나 하드웨어가 없는ㄴ데 gpu설치한 �
 https://www.tensorflow.org/install/pip
 위의 주소에서 알맞은 tensor설치하고 conda install python=3.6이용하면 된다.
 
+python -m pip install --upgrade https://storage.googleapis.com/tensorflow/windows/cpu/tensorflow-1.12.0-cp36-cp36m-win_amd64.whl
+
+이 명령어로 tensor
 
