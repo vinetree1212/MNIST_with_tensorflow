@@ -27,7 +27,31 @@
  
  (tensorflow) 가상환경을 만들었기 떄문이다.
 
-#노트2
+# 노트2
 (11/26)
 
 hukim1112 참고
+
+# 노트3
+(11/26)
+
+Tensorflow설치하는법
+
+numpy 나 matplotlib같은 라이브러리는 그냥 pip install 명령어로 설치하면 되지만
+tensor는 python 3.7버전에서 그냥 설치가 안되는거 같다
+
+인터넷에 설치하는법이라고 가상환경 (tensorflow) 같은거 만들어서 설치하게 하는건 
+jupyter notebook상에서 import tensorflow as tf는 쓸수 있는데 New에서 python3을 통해 tensorflow하는걸 못하게 막는다(노트1 참고)
+
+가상환경없이 (base)에서 직접 tensorflow를 설치해야한다.
+https://github.com/tensorflow/tensorflow/issues/17022
+주소를 참고
+
+//////////////////////////////////////////////////////////////
+(base) C:\Users\James>python --version
+Python 3.7.0
+
+(base) C:\Users\James>python -m pip install --upgrade https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-0.12.0-py3-none-any.whl
+//////////////////////////////////////////////////////////////
+
+위를 보면 python 이 3.7이고 pip install을 위해 직접 tensorflow 주소를 입력했다. 이건 검색해야하는 듯하다.
