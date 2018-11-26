@@ -72,5 +72,7 @@ https://www.tensorflow.org/install/pip
 
 python -m pip install --upgrade https://storage.googleapis.com/tensorflow/windows/cpu/tensorflow-1.12.0-cp36-cp36m-win_amd64.whl
 
-이 명령어로 tensor
+이 명령어로 tensor설치하고
+
+numpy 도 새로 깔아줘야 한다.
 
